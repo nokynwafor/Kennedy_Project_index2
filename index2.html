@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1> Sleeping Classification</h1>
+    <p>
+        <fieldset>
+      <label> Region <input type="text"> </label>  
+    </p>
+    <p>
+    <label> Sleeping Hours <input type="text"> </label>   
+    </p>
+    <p>
+    <label> Age <input type="text"> </label> 
+
+</fieldset>
+    
+    <p><button type="submit">Button for submitting the form</button></p>
+    </p>
+
+    <script>
+
+    function sleepHours (sh, age,r){  
+    // r = region, sh = sleeping hours
+
+    if ((sh < 8 && age > 40) || (sh < 6  && age <= 40)) {
+
+    console.log('Sleep Deprived');}
+    else {
+    console.log('Healthy');
+}
+    if (region.toLowerCase() === "america"){
+    console.log("87% of highschool students in America are sleep deprived")
+}
+
+}
+    sleepHours (10,44, "america")
+    </script>
+    
+</body>
+</html>
